@@ -1,0 +1,7 @@
+# Render Blueprint — ON ACADEMY (site statique)
+# https://render.com/docs/blueprint-spec
+services:
+  - type: static-site
+    name: on-academy
+    staticPublishPath: .
+    buildCommand: echo "Aucune étape de build"
